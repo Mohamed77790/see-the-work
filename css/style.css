@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+}
+.header{
+    background-color: rgb(64, 110, 238);
+    color: wheat;
+    height: 90px;
+    
+}
+.header a {
+    float: right;
+    margin-top: 5px;
+}
+.ora{
+    color: white;
+}
+
+
+
+
+
+
+footer{
+    margin-top: 150px;
+    padding-top: 30px;
+    background-color: rgb(131, 248, 248);
+}
+footer a {
+    color: white;
+}
+footer a:hover{
+    color: black;
+}
+footer ul li{
+    list-style: none;
+}
+footer p{
+    color: white;
+}
+footer h2{
+    color: white;
+}
+.jumbotron{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron .blog-info{
+    flex: 2;
+}
+.jumbotron .blog-image{
+    flex: 1;
+}
+.blog-detels p {
+    line-height: 2;
+    padding: 10px;
+}
+.nwes {
+    margin-top: 20px;
+    
+    background-color: #eee;
+}
+.courses img:hover{
+    transform: scale(1.1);
+    transition: 1.3s;
+}
+.card img:hover{
+    transform: scale(1.3);
+    transition: 1.3s;
+}
+.pic{
+    background-image: url(../images/م7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
+}
+.spa{
+    margin-top: 20%;
+    float: right;
+    color: orange;
+    font-size: 35px;
+}
+.color{
+    background-color: black;
+    color: white;
+}
+.color-two{
+    background-color: blue;
+    color: white;
+}
+.spas{
+    color: red;
+    font-size: 35px;
+   
+}
+.drop{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.603);
+}
